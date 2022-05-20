@@ -65,13 +65,41 @@ ul {}
 
 .logo {}
 
-.logo__link {}
+.logo__link {
+  max-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .logo__image {}
 
-.logo__title {}
+.logo__title {
+  font-weight: 700;
+  font-size: 36px;
+  letter-spacing: 0.1em;
+  color: #F13c6e;
+  margin: 0 20px;
+}
 
-.feedback {}
+.feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback__call {
+  margin: 0 40px;
+}
+
+.feedback__action {
+  width: 170px;
+  min-height: 40px;
+  border: 2px solid #f13c6e;
+  border-radius: 20px;
+  background-color: #ffffff;
+
+}
 
 .navbar-primary {
   padding: 1em 0;
@@ -93,4 +121,44 @@ ul {}
 
 .navbar-primary__link {
   color: #000000;
+}
+
+.main {}
+
+.head {
+  background-image: url(../../img/Rectangle.png);
+  max-height: 600px;
+}
+
+.container {}
+
+.container--head {
+  padding: 190px 0;
+}
+
+.head__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.head__description {
+  max-width: 360px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.head__action {
+  margin-top: 50px;
+  width: 170px;
+  min-height: 40px;
+  border: 2px solid #ffffff;
+  border-radius: 20px;
+  background-color: #f13c6e;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
 }
