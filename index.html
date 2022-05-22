@@ -14,7 +14,7 @@
 
 <body>
 
-  <div class="header">
+  <header class="header">
     <nav class="navbar-secondary">
       <div class="container">
         <ul class="navbar-secondary__list">
@@ -45,7 +45,7 @@
         </a>
       </div>
       <div class="feedback">
-        <a class="feedback__call" href="tel:" +388121234567>8 (812) 123-45-67</a>
+        <a class="feedback__call" href="tel:">8 (812) 123-45-67</a>
         <button class="feedback__action">Обратный звонок</button>
       </div>
     </div>
@@ -75,32 +75,141 @@
         </ul>
       </div>
     </nav>
-  </div>
+  </header>
 
   <main class="main">
-    <section class="head">
-      <div class="container container--head">
-        <h2 class="head__title">Супер кресло</h2>
-        <p class="head__description">Текст акции всегда отражает суть, а не просто
-          болтовню, поэтому внимательнее</p>
-        <button class="head__action">Подробнее</button>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h2 class="hero__title">Супер кресло</h2>
+          <p class="hero__description">Текст акции всегда отражает суть, а не просто
+            болтовню, поэтому внимательнее</p>
+          <div class="hero__action">
+            <a class="hero__link" href="">Подробнее</a>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="sales">
+    <section class="specials">
       <div class="container">
-        <h2 class="sales__title">Специальные предложения</h2>
-        <a class="sales__card" href="">
-          <img src="img/Rectangle4.png" alt="">
-          <p>Парикмахерское кресло «Норм» гидравлическое</p>
+        <h2 class="specials__title">Специальные предложения</h2>
+        <div class="specials__content">
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="submit">
+      <!--<h2></h2>-->
+      <div class="container container--submit">
+        <div class="subscribe">
+          <img src="img/envelope.svg" alt="">
+        </div>
+        <div class="location">
+          <img src="img/x36  8.svg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="brands">
+      <!--<h2></h2>-->
+      <div class="container container--brands">
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
+        </a>
+        <a class="brand-item" href="">
+          <img class="brand-item__image" src="img/image.png" alt="">
         </a>
       </div>
+
+    </section>
+
+    <section class="viewed">
+      <div class="container">
+        <h2 class="viewed__title">Вы недавно смотрели</h2>
+        <div class="viewed__content">
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+          <article class="special">
+            <h3 class="special__title">Парикмахерское кресло «Норм» гидравлическое</h3>
+            <div><img class="special__image" src="img/Rectangle4.png" alt=""></div>
+            <div class="special__price">9 900</div>
+            <div class="special__buy"><a class="special__action" href="">Купить</a></div>
+          </article>
+        </div>
       </div>
     </section>
 
-    </div>
-    <section class="viewed"></section>
-    <section class="navbar-below"></section>
 
   </main>
 
