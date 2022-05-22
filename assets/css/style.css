@@ -256,10 +256,27 @@ ul {}
 }
 
 .subscribe {
+  /*align-content: center;
+  display: flex;
+  justify-content: center;*/
   background-color: #f13c6e;
   min-height: 210px;
   flex-grow: 1;
 }
+
+.subscribe-attraction {
+  max-width: 250px;
+}
+
+.subscribe__title {}
+
+.subscribe__description {}
+
+.subscribe__input {}
+
+.subscribe__logo {}
+
+
 
 .location {
   background-color: #f13c6e;
