@@ -186,6 +186,7 @@ input {
 
 .specials__content {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
@@ -195,6 +196,7 @@ input {
 
 .special {
   background-color: var(--color-clear);
+  max-width: 255px;
   padding: 25px;
   display: flex;
   align-items: center;
@@ -251,6 +253,8 @@ input {
 }
 
 .subscribe {
+  display: flex;
+  flex-direction: column;
   background-color: var(--color-dark);
   background-image: url(../../img/envelope.svg);
   background-repeat: no-repeat;
@@ -284,6 +288,8 @@ input {
 }
 
 .location {
+  display: flex;
+  flex-direction: column;
   background-image: url(../../img/x368.svg);
   background-repeat: no-repeat;
   background-position: 90% 50%;
@@ -354,6 +360,7 @@ input {
 
 .viewed__content {
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
